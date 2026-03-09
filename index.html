@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mertcan Kılınç</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="logo">mk</span>
+    <ul>
+      <li><a href="#about">hakkımda</a></li>
+      <li><a href="#education">eğitim</a></li>
+      <li><a href="#work">projeler</a></li>
+      <li><a href="#contact">iletişim</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO / ABOUT -->
+  <section id="about">
+    <div class="about-content">
+      <div class="about-text">
+        <p class="greeting">Merhaba, ben</p>
+        <h1>Mertcan Kılınç</h1>
+        <p class="tagline">Bilgisayar Mühendisi (Öğrenci)</p>
+        <p class="bio">
+            Bilgisayar mühendisliği öğrencisi olarak, yazılım geliştirme ve teknolojiye 
+            olan tutkumla projeler üretiyorum. Yeni teknolojileri öğrenmeye ve 
+            yaratıcı çözümler geliştirmeye her zaman açığım.
+        </p>
+        <div class="hero-cta">
+          <a href="#work" class="btn-ghost">Projelerimi gör</a>
+          <a href="#contact" class="btn-ghost">İletişime geç</a>
+        </div>
+      </div>
+      <div class="avatar-wrap">
+        <div class="avatar">
+          <img src="photo.jpeg" alt="Mertcan Kılınç" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <h2 class="section-title">eğitim</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="timeline-date">2022 — 2027 </span>
+        <div class="timeline-body">
+          <h3>Bilgisayar Mühendisliği</h3>
+          <p class="company">İstanbul Teknik Üniversitesi</p>
+          <p>3. Sınıf</p>
+          <p>GPA: 2.92</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">2017 — 2021</span>
+        <div class="timeline-body">
+          <h3>Muğla 75. Yıl Fen Lisesi</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE & PROJECTS -->
+  <section id="work">
+    <h2 class="section-title">deneyim &amp; projeler</h2>
+  <!-- 
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="timeline-date">2024 — şimdi</span>
+        <div class="timeline-body">
+          <h3>Kıdemli Yazılım Geliştirici</h3>
+          <p class="company">Şirket Adı</p>
+          <p>Ürün mimarisini tasarlayıp geliştirme süreçlerini iyileştirdim.</p>
+        </div>
+      </div>
+    </div>
+    -->
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-tag">Veritabanı</span>
+        </div>
+        <h3>Databeez</h3>
+        <p>Veritabanı sistemlerinin yönetimi ve manipülasyonları ile ilgili bir projede görev aldım.</p>
+        <div class="tech-stack">
+          <span>MySQL</span><span>HTML/CSS</span><span>JavaScript</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title">iletişim</h2>
+    <p class="contact-sub"> </p> <!-- NOTE FOR CONTACT -->
+
+    <div class="contact-links">
+      <a href="mailto:mertcan@example.com" class="contact-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        klncmertcan2002@gmail.com
+      </a>
+      <a href="https://github.com/klncmertcan" target="_blank" rel="noopener" class="contact-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        github.com/klncmertcan
+      </a>
+      <a href="https://www.linkedin.com/in/mertcan-k%C4%B1l%C4%B1n%C3%A7-292b90281/" target="_blank" rel="noopener" class="contact-item">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+        linkedin.com/in/mertcankilinc
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Mertcan Kılınç</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
