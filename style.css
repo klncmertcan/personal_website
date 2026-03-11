@@ -360,6 +360,29 @@ h1 {
   border-radius: 4px;
 }
 
+/* ===== SKILLS ===== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.skill-group {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+}
+
+.skill-label {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+
 /* ===== CONTACT ===== */
 .contact-sub {
   font-size: 1rem;
@@ -421,6 +444,35 @@ footer {
   .projects-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* ===== VOLUNTEER ===== */
+.volunteer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.volunteer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.volunteer-role {
+  font-weight: 600;
+  color: var(--text);
+}
+
+.volunteer-desc::before { content: "— "; }
+
+.volunteer-date {
+  font-size: 0.8rem;
+  color: #888;
 }
 
 /* ===== FADE-IN ANIMATION ===== */
